@@ -10,6 +10,54 @@
             text-align: center;
           
         }
+         .navbar {
+            background-color: #007BA7;
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            color: white;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        .nav-links a:hover {
+            background-color: #005f80;
+        }
+
+        .search-container input {
+            padding: 6px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        .search-container button {
+            padding: 6px 10px;
+            margin-left: 5px;
+            border: none;
+            border-radius: 4px;
+            background-color: #005f80;
+            color: white;
+            cursor: pointer;
+        }
 
         .container {
             background-color: #007BA7;
@@ -47,6 +95,24 @@
     </style>
 </head>
 <body>
+              <div class="navbar">
+        <div class="logo">
+            <img src="https://files.orangeapps.ph/disk001/School_Files/1/school-65/school_profile/1687002413-822.png" alt="Logo">
+
+        </div>
+
+        <div class="nav-links">
+            <a href="https://rv-cruz1910.github.io/FV_9Sapphire_Q4Project_Cruz-Rohann/">About Me</a>
+            <a href="https://rv-cruz1910.github.io/FV_9Sapphire_Q1Project_Cruz-Rohann/">1st Quarter</a>
+            <a href="https://rv-cruz1910.github.io/FV_9S_Q2Project_Cruz-Rohann/">2nd Quarter</a>
+            <a href="https://rv-cruz1910.github.io/FV_9Sapphire_Q3Project_Cruz-Rohann/">3rd Quarter</a>
+            <a href="https://rv-cruz1910.github.io/FV_ICT9Sapphire_Q4Quiz2_Cruz_Rohann/">4th Quarter</a>
+        </div>
+
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button>Go</button>
+
     <br><br>
     <div class="container">
         <center><h1>Student Grade Evaluator</h1></center>
